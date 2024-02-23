@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Transform</title>
+    <style>
+      .btn {
+        height: 50px;
+        width: 80px;
+        background-color: limegreen;
+        transition-property: all;
+        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 1s;
+        /* transition: all 1s ease-in-out 1s */
+      }
+      .btn:hover {
+        transform: skew(180deg); /* it will skew the button in 180 degrees */
+      }
+    </style>
+  </head>
+  <body>
+    <button class="btn">Click Me</button>
+  </body>
+</html>

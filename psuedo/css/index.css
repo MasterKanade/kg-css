@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.btn {
+  height: 70px;
+  width: 70px;
+  background-color: aliceblue;
+  border: 1px solid red;
+}
+
+.btn:hover {
+  height: 200px;
+  width: 200px;
+  background-color: burlywood;
+}
+
+.btn:active {
+  height: 100px;
+  width: 100px;
+  border: 2px solid yellow;
+  text-overflow: inherit;
+  background-color: green;
+}
